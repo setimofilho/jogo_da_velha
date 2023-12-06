@@ -1,0 +1,9 @@
+:root {
+    --cor-pricipal: #44D3CA;
+}
+
+
+.main {
+    background-color: var(--cor-pricipal);
+    height: 100vh;
+}
