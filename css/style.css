@@ -1,9 +1,1 @@
-:root {
-    --cor-pricipal: #44D3CA;
-}
-
-
-.main {
-    background-color: var(--cor-pricipal);
-    height: 100vh;
-}
+:root{--cor-principal: #44D3CA;--cor-principal-clara: #d9f3f2;--cor-principal-escura: #0c827a;--cor-contraste: #e2820c;--cor-branco: #ffffff;font-family:sans-serif}body{background-color:var(--cor-principal)}.main{height:100vh;display:flex;justify-content:center;align-items:center;flex-direction:column}.main__titulo{font-size:3em;margin-bottom:1em;font-weight:100;color:var(--cor-branco)}.main__header{width:30em;display:flex;justify-content:space-between;margin-bottom:.5em}.main__header button{padding:.3em 1em;color:var(--cor-principal-escura);font-weight:700;background-color:rgba(255,255,255,.5);outline:0;border:0}.main_tela-jogo{width:30em;height:30em;background-color:var(--cor-branco);padding:1em;display:flex;flex-wrap:wrap;align-items:flex-start;gap:0;row-gap:0;-moz-column-gap:0;column-gap:0;box-sizing:border-box;margin:0}.main_tela-jogo div{margin:0;width:9em;height:9em;cursor:pointer;transition:.7s}.main_tela-jogo div:nth-child(1),.main_tela-jogo div:nth-child(2),.main_tela-jogo div:nth-child(4),.main_tela-jogo div:nth-child(5){border-bottom:6px solid var(--cor-principal-escura);border-right:6px solid var(--cor-principal-escura)}.main_tela-jogo div:nth-child(3),.main_tela-jogo div:nth-child(6){border-bottom:6px solid var(--cor-principal-escura)}.main_tela-jogo div:nth-child(8){border-right:6px solid var(--cor-principal-escura);border-left:6px solid var(--cor-principal-escura)}.main_tela-jogo div:hover{background-color:var(--cor-principal-clara)}#resultado{font-size:2em;font-weight:700;color:var(--cor-contraste);text-align:center;width:100%}.jogador1{background-image:url("../img/x.png");background-repeat:no-repeat;background-position:cover}.jogador2{background-image:url("../img/o.png");background-repeat:no-repeat;background-position:cover}
